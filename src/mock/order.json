@@ -1,0 +1,32 @@
+{
+  "errCode": 200,
+  "data": [
+    {
+      "id": 1,
+      "book_id": 1,
+      "book_name": "Operating System",
+      "price": 10,
+      "gross": 20,
+      "cover": "./img/book/book1.jpg",
+      "num": 2
+    },
+    {
+      "id": 2,
+      "book_id": 4,
+      "book_name": "一平米健身:硬派健身",
+      "price": 22,
+      "gross": 198,
+      "cover": "./img/book/book4.jpg",
+      "num": 9
+    },
+    {
+      "id": 3,
+      "book_id": 5,
+      "book_name": "美的沉思",
+      "price": 21,
+      "gross": 42,
+      "cover": "./img/book/book5.jpg",
+      "num": 2
+    }
+  ]
+}

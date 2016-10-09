@@ -1,0 +1,83 @@
+{
+  "errCode": 200,
+  "data": [
+    {
+      "id": 1,
+      "name": "Technology",
+      "children": [
+        {
+          "id": 6,
+          "name": "Computer"
+        },
+        {
+          "id": 7,
+          "name": "Network"
+        },
+        {
+          "id": 8,
+          "name": "Maths"
+        },
+        {
+          "id": 9,
+          "name": "Agricultural"
+        },
+        {
+          "id": 10,
+          "name": "Chemistry"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Art",
+      "children": [
+        {
+          "id": 11,
+          "name": "Painting"
+        },
+        {
+          "id": 12,
+          "name": "Dancing"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Novel",
+      "children": [
+        {
+          "id": 13,
+          "name": "Detective"
+        },
+        {
+          "id": 14,
+          "name": "Inspirational"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Sports",
+      "children": [
+        {
+          "id": 16,
+          "name": "Run"
+        },
+        {
+          "id": 17,
+          "name": "Swim"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Science",
+      "children": [
+        {
+          "id": 15,
+          "name": "Ocean"
+        }
+      ]
+    }
+  ]
+}

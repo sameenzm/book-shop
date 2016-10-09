@@ -1,0 +1,104 @@
+{
+  "errCode": 200,
+  "data": [
+    {
+      "id": 1,
+      "book_name": "Operating System",
+      "cover": "./img/book/book1.jpg",
+      "price": 10,
+      "child_category_id": 6,
+      "parent_category_id": 1,
+      "child_category_name": "Computer",
+      "parent_category_name": "Technology",
+
+      "store": 20
+    },
+    {
+      "id": 2,
+      "book_name": "The Art of Painting",
+      "price": 13,
+      "child_category_id": 11,
+      "parent_category_id": 2,
+      "child_category_name": "Painting",
+      "parent_category_name": "Art",
+
+      "store": 40
+    },
+    {
+      "id": 3,
+      "book_name": "Database",
+      "price": 19,
+      "child_category_id": 6,
+      "parent_category_id": 1,
+      "child_category_name": "Computer",
+      "parent_category_name": "Technology",
+
+      "store": 80
+    },
+    {
+      "id": 4,
+      "book_name": "一平米健身:硬派健身",
+      "cover": "./img/book/book4.jpg",
+      "price": 22,
+      "child_category_id": 16,
+      "parent_category_id": 4,
+      "child_category_name": "Run",
+      "parent_category_name": "Sports",
+
+      "store": 80
+    },
+    {
+      "id": 5,
+      "book_name": "美的沉思",
+      "cover": "./img/book/book5.jpg",
+      "price": 21,
+      "child_category_id": 11,
+      "parent_category_id": 2,
+      "child_category_name": "Painting",
+      "parent_category_name": "Technology",
+      "store": 80
+    },
+    {
+      "id": 6,
+      "book_name": "Data Structure",
+      "price": 44,
+      "child_category_id": 9,
+      "parent_category_id": 1,
+      "child_category_name": "Agricultural",
+      "parent_category_name": "Technology",
+      "store": 80
+    },
+    {
+      "id": 7,
+      "book_name": "Algorithm",
+      "price": 23,
+      "child_category_id": 9,
+      "parent_category_id": 1,
+      "child_category_name": "Agricultural",
+      "parent_category_name": "Technology",
+      "store": 80
+    },
+    {
+      "id": 8,
+      "book_name": "施瓦辛格健身全书",
+      "cover": "./img/book/book8.jpg",
+      "price": 23,
+      "child_category_id": 16,
+      "parent_category_id": 4,
+      "child_category_name": "Run",
+      "parent_category_name": "Sports",
+      "store": 80
+    },
+    {
+      "id": 9,
+      "book_name": "我喜欢这个功利的世界",
+      "cover": "./img/book/book10.jpg",
+      "price": 33,
+      "child_category_id": 14,
+      "parent_category_id": 3,
+      "child_category_name": "Inspirational",
+      "parent_category_name": "Novel",
+      "store": 99
+    }
+  ]
+}

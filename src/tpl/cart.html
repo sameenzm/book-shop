@@ -1,0 +1,28 @@
+<script type="text/template" export="num">{{=it.sum}}</script>
+
+<script type="text/template" export="goods">
+    <li class="goods clearfix book{{=it.book_id}}">
+        <div class="goods-pic">
+            <a href="javascript:;"><img src="{{=it.cover}}" alt="{{=it.book_name}}"></a>
+        </div>
+        <div class="goods-info">
+            <div class="goods-title"><a href="javascript:;">{{=it.book_name}}</a>
+                <span class="goods-del" data-del="{{=it.book_id}}">删除</span></div>
+            <div class="goods-content">
+                <span class="goods-price">Price: {{=it.price}}</span><span class="multiply"> ×</span>
+                <input type="number" min="1" value="{{= it.num }}" data-book="{{=it.book_id}}">
+                <span class="gross">= {{=it.gross}}</span>
+            </div>
+        </div>
+    </li>
+</script>
+
+<script type="text/template" export="total">
+    <div class="pull-left">
+        <p><span>{{=it.sum}}</span> 本书</p>
+        <p>共计： <span>￥{{=it.total}}</span></p>
+    </div>
+    <div class="pull-right">
+        <button class="submit">去结算</button>
+    </div>
+</script>

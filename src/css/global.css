@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-family: "微软雅黑", "Microsoft YaHei", sans-serif;
+}
+
+html,
+body,
+ul, li,
+a,
+div, p, span, section,
+h1, h2, h3, h4, h5, h6,
+form {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul {
+   list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ec7814;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.pull-left {
+    float: left!important;
+}
+
+.pull-right {
+    float: right!important;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}

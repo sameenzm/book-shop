@@ -1,0 +1,25 @@
+{
+  "name": "book-shop",
+  "version": "1.0.0",
+  "description": "A simple book shop.",
+  "main": "index.html",
+  "scripts": {
+    "serve": "gulp && http-server ./dist -p 9001",
+    "build": "gulp"
+  },
+  "author": "Sameen",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-dot2module": "^0.2016.1-0.7",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev-append": "^0.1.6",
+    "gulp-uglify": "^2.0.0",
+    "http-server": "^0.9.0"
+  }
+}

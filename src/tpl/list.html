@@ -1,0 +1,25 @@
+<script type="text/template" export="crumb">
+    <span class="crumb">
+        <a href="javascript:;" class="crumb-parent" data-id="0">Home</a>
+    </span>
+    {{ if(it.parent !== null) { }}
+    <span class="crumb">
+        <a href="javascript:;" class="crumb-parent" data-id="{{=it.parentId}}">{{= it.parent}}</a>
+    </span>
+    {{ } }}
+    <span>{{= it.child || "All"}}</span>
+</script>
+
+<script type="text/template" export="list">
+    {{ it.data.forEach(function(item){ }}
+    <li class="book">
+        <div class="book-pic" data-id="{{=item.id}}">
+            <a href="javascript:;">
+                <img src="{{=item.cover || './img/book/default.jpg'}}" alt="{{=item.book_name}}" >
+            </a>
+        </div>
+        <div class="book-title"><a href="javascript:;">{{=item.book_name}}</a></div>
+        <div class="book-price">Price: {{=item.price}}</div>
+    </li>
+    {{ }); }}
+</script>

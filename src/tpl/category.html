@@ -1,0 +1,16 @@
+{{ it.data.forEach(function(item) { }}
+<div class="category-item">
+    <h3 class="parent-ctg">
+        <i class="fa fa-plus-square-o plus-icon" aria-hidden="true"></i>
+        <i class="fa fa-minus-square-o minus-icon" aria-hidden="true"></i>
+        {{= item.name }}
+    </h3>
+    {{ item.children.forEach(function(value) { }}
+    <ul class="child-ctg">
+        <li data-id="{{=value.id}}">
+            <a href="javascript:;">{{= value.name }}</a>
+        </li>
+    </ul>
+    {{ }); }}
+</div>
+{{ }); }}
